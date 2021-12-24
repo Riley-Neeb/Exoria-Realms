@@ -1,0 +1,36 @@
+main: fatul.Main
+name: FatulPvP
+version: 1.0
+author: Silathar
+api-version: 1.16
+commands:
+  setclass:
+     description: Set yourself to one of the many classes.
+     usage: /setclass [ClassName]
+  setrace:
+     description: Set your current race
+     usage: /setrace [Race]
+  class:
+     description: Look at your current class.
+     usage: /class
+  race:
+     description: Look at your current clas.
+     usage: /race
+  setconfig:
+     description: Set's a users config in case it didn't load properly.
+     usage: /setconfig
+  party:
+     description: Party options.
+     usage: /party
+  heal:
+     description: Heal yourself.
+     usage: /heal
+  feed:
+     description: Feed yourself.
+     usage: /feed
+  cleanup:
+     description: Clean up ground items.
+     usage: /cleanup
+  item:
+     description: give a plugin item.
+     usage: /item itemName
